@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simeon's Star Wars RPG Game!</title>
+	<!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Link united theme for bootstrap -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+  	<!-- Link javascript for game logic -->
+  	<script src="assets/javascript/game.js"></script>
+  	<link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+
+	<div class="jumbotron">
+		<h1 class="text-right"> Star Wars RPG! </h1>
+	</div>
+
+	<div class="container">
+		<div class="row" id="AllCharacters">
+		</div>
+		
+		<div class=row>
+			<h3> Your Character </h3>
+			<div id="playerBox">
+				<span id="myCharacterName"></span>
+				<div id="myCharacter"></div>
+				<span id="myCharacterHealth"></span>
+			</div>
+		</div>
+		
+		<div>
+			<h3> Enemies Available to Attack </h3>
+			<div id="enemiesAvailable"></div>
+		</div>
+
+
+		<div>
+			<h3> Fight Section </h3>
+			<span id="fight">
+				<button id=fightbttn>Fight</button>
+			</span>
+			<span id="restart">
+				<button id=restartbttn>Restart</button>
+			</span>
+		</div>
+
+		<div>
+			<h3> Defender </h3>
+			<div id="defender"></div>
+			<div id="defenderHealth"></div>
+		</div>
+		
+
+		<div id="txtOut">
+		</div>
+
+
+	</div>
+
+</body>
+</html>
