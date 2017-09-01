@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simeon's Trivia Game</title>
+	   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Link united theme for bootstrap -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css">
+  	<!-- Link javascript for game logic -->
+  	<script src="assets/javascript/app.js"></script>
+  	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class=text-center> NBA Trivia Game </h1>
+			<p class="text-center"> The silliest NBA game in the world </p>
+		</div>
+		<button type="button" class="btn-primary btn-block" id=startGamebuttn> Start Game </button>
+		<div class=row>
+			<div id=timeleft class="text-center"></div>
+			<div id=qna class="text-center hidebutton">
+				<p> <h2>What nickname did NBA star Karl Malone earn for his ability to deliver in the clutch? </h2></p>
+					<label class="radio-inline">
+						<input type="radio" name="q1" value=0> The Currier
+					</label>
+
+					<label class="radio-inline">
+				      <input type="radio" name="q1" value=1>The Mailman
+				    </label>
+
+				    <label class="radio-inline">
+				      <input type="radio" name="q1" value=2>FedEx
+				    </label>
+
+				    <label class="radio-inline">
+				      <input type="radio" name="q1" value=3>The Doctor
+				    </label>
+				    <p></p>
+				<p> <h2>What was the first NBA team to win 70 games or more in the regular season? </h2></p>
+					<label class="radio-inline">
+						<input type="radio" name="q2" value=0> The Chicago Bulls
+					</label>
+
+					<label class="radio-inline">
+				      <input type="radio" name="q2" value=1>Boston Celtics
+				    </label>
+
+				    <label class="radio-inline">
+				      <input type="radio" name="q2" value=2>Los Angelis Lakers
+				    </label>
+
+				    <label class="radio-inline">
+				      <input type="radio" name="q2" value=3>New York Knicks
+				    </label>
+				    <p></p>
+				<p> <h2> What Baltic country did Portland Trail Blazer Arvydas Sabonis play for at the 1996 Olympics? </h2></p>
+					<label class="radio-inline">
+						<input type="radio" name="q3" value=0> Lithuania
+					</label>
+
+					<label class="radio-inline">
+				      <input type="radio" name="q3" value=1>Latvia
+				    </label>
+
+				    <label class="radio-inline">
+				      <input type="radio" name="q3" value=2>Estonia
+				    </label>
+
+				    <label class="radio-inline">
+				      <input type="radio" name="q3" value=3>Poland
+				    </label>
+				    <p></p>
+				<input type="button" id="btnSubmit" Value="Submit your Answer" />
+				
+			</div>
+			
+			
+
+
+
+		</div>
+	</div>
+</body>
+</html>
