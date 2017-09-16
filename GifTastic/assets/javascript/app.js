@@ -39,7 +39,7 @@ printButtons();
     var playerName = $(this).attr("name");
 
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-      playerName + "&api_key=dc6zaTOxFJmzC&limit=10";
+      playerName + "&api_key=b0f89c1ebf5a496098ca84172956a657&limit=10";
 
     $.ajax({
       url: queryURL,
