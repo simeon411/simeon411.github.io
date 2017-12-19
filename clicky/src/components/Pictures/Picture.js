@@ -24,7 +24,6 @@ class Picture extends Component {
 	    }
 	    else{
 	    	this.setState({userScore: 0});
-	    	this.setState({topScore: 0});
 	    	this.resetField();
 	    }
   	}
