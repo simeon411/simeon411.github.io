@@ -36,10 +36,11 @@ class Picture extends Component {
 	}
 
   scoreIncrement = () => {
-    this.setState({ userScore: this.state.userScore + 1 }, () => {this.setTopScore(this.state.userScore);});
+    this.setState({ userScore: this.state.userScore + 1 }, () => {this.setTopScore(this.state.userScore)});
   }
 
   setTopScore = (newTopScore) => {
+  	if (newTopScore >= this.state.topScore)
     this.setState({ topScore: newTopScore });
 
   }
